@@ -21,6 +21,9 @@ public class OrderResource {
     @GetMapping
     public ResponseEntity<List<Order>> findAll() {
         List<Order> list = service.findAll();
+        System.out.println("==========================");
+        list.forEach(e -> System.out.println(e.getOrderStatus()));
+        System.out.println("==========================");
         return ResponseEntity.ok().body(list);
     }
 
