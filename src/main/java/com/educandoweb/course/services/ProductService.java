@@ -1,4 +1,4 @@
-package com.educandoweb.course.servicies;
+package com.educandoweb.course.services;
 
 import com.educandoweb.course.entities.Product;
 import com.educandoweb.course.repositories.ProductRepository;

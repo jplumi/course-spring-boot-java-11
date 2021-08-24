@@ -1,7 +1,7 @@
 package com.educandoweb.course.resources;
 
 import com.educandoweb.course.entities.Product;
-import com.educandoweb.course.servicies.ProductService;
+import com.educandoweb.course.services.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
